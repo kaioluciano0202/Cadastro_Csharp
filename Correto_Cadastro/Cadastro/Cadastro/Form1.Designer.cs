@@ -61,6 +61,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.Btn_Enviar = new System.Windows.Forms.Button();
+            this.backgroundWorker3 = new System.ComponentModel.BackgroundWorker();
             this.Grp_Temas.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -384,7 +385,7 @@
             this.lbl_Resultado.AutoSize = true;
             this.lbl_Resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Resultado.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Resultado.Location = new System.Drawing.Point(760, 294);
+            this.lbl_Resultado.Location = new System.Drawing.Point(760, 236);
             this.lbl_Resultado.Name = "lbl_Resultado";
             this.lbl_Resultado.Size = new System.Drawing.Size(190, 31);
             this.lbl_Resultado.TabIndex = 26;
@@ -485,6 +486,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Windows.Forms.Button Btn_Enviar;
+        private System.ComponentModel.BackgroundWorker backgroundWorker3;
     }
 }
 
